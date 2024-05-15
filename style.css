@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+.form {
+  color: #fff;
+  background: #6050dc;
+  padding: 1rem;
+  width: 30rem;
+  max-width: 90vw;
+  margin: 2rem auto;
+  border-radius: 0.25rem;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+
+.form label {
+  display: block;
+  /* margin-bottom: 0.25rem; */
+  font-weight: 500;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+}
+
+.form input {
+  width: 100%;
+  border: 2px solid #76c0ae;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  background-color: transparent;
+  color: #c2e9e0;
+  outline: none;
+}
+
+.input-group p {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0; 
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+.actions button:first-of-type {
+  font-size: 1rem;
+  border: none;
+  background: transparent;
+  text-transform: capitalize;
+  color: #c2e9e0;
+  cursor: pointer;
+}
+
+.actions button:last-of-type {
+  font-size: 1rem;
+
+}
